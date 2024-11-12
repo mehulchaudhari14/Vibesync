@@ -43,12 +43,12 @@ class SongSuggestionActivity : AppCompatActivity() {
     // Function to return song suggestions based on the selected mood
     private fun getSongsForMood(mood: String?): List<String> {
         return when (mood) {
-            "Happy" -> listOf("Happy - Pharrell Williams", "Walking on Sunshine - Katrina and the Waves", "Can't Stop the Feeling - Justin Timberlake")
-            "Sad" -> listOf("Someone Like You - Adele", "Fix You - Coldplay", "Yesterday - The Beatles")
-            "Angry" -> listOf("Break Stuff - Limp Bizkit", "Killing in the Name - Rage Against the Machine", "Headstrong - Trapt")
-            "Love" -> listOf("All of Me - John Legend", "Perfect - Ed Sheeran", "Thinking Out Loud - Ed Sheeran")
-            "Relaxed" -> listOf("Weightless - Marconi Union", "Sunset Lover - Petit Biscuit", "Breezeblocks - Alt-J")
-            "Excited" -> listOf("Can't Hold Us - Macklemore & Ryan Lewis", "Uptown Funk - Mark Ronson ft. Bruno Mars", "Shut Up and Dance - Walk the Moon")
+            "Happy" -> listOf("Zingaat – Dhadak", "Kala Chashma – Baar Baar Dekho", "Lungi Dance – Chennai Express","Kar Gayi Chull – Kapoor & Sons","Aankh Marey – Simmba")
+            "Sad" -> listOf("Channa Mereya – Ae Dil Hai Mushkil","Agar Tum Saath Ho – Tamasha Tujhe"," Bhula Diya – Anjaana Anjaani","Hamari Adhuri Kahani – Hamari Adhuri Kahani","Bekhayali – Kabir Singh")
+            "Angry" -> listOf("Sadda Haq – Rockstar", "Bhaag DK Bose – Delhi Belly", "Zinda – Bhaag Milkha Bhaag", "Angry Mix – Various Artists", "Yalgaar – CarryMinati")
+            "Love" -> listOf("Tum Jo Aaye – Once Upon a Time in Mumbaai", "Raabta – Agent Vinod", "Pehli Nazar Mein – Race", "Jeene Laga Hoon – Ramaiya Vastavaiya", "Sun Saathiya – ABCD 2")
+            "Relaxed" -> listOf("Ilahi – Yeh Jawaani Hai Deewani", "Phir Le Aya Dil (Rekha Bhardwaj version) – Barfi!", "Kabira – Yeh Jawaani Hai Deewani", "Ae Watan – Raazi", "Shayad – Love Aaj Kal (2020)")
+            "Excited" -> listOf("Badtameez Dil – Yeh Jawaani Hai Deewani", "Ghungroo – War", "Kala Chashma – Baar Baar Dekho", "Jai Jai Shivshankar – War", "Malhari – Bajirao Mastani")
             else -> listOf("No songs available for this mood")
         }
     }
